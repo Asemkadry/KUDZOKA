@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+        background-image: url("Task Design/blue_bg.png"); 
+        background-size: 1350px 530px;
+        background-repeat: no-repeat;
+        /* Border: 4px solid rgb(255, 30, 0);  */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+        /* Border: 4px solid rgb(0, 17, 255);  */
+}
+
+.logoimg{
+    margin-top: 20px;
+}
+
+.navwords{
+    margin: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav.right{
+    display: flex;
+    margin-left:20px;
+    align-items: center;
+}
+.nav.left{
+    margin-right:50px;
+    margin-top: 30px;
+}
+
+.btn{
+    border-radius: 40%;
+    border-style: none;
+    background-color: white;
+    color: gray;
+    height: 35px;
+    width: 100px;
+}
+
+.words{
+    width: 400px;
+    margin-top: 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rightheader{
+position: relative;
+}
+
+.leftheader{
+    color: gray;
+    margin-bottom:100px ;
+    }
+    
+.landing{
+    margin-left: 30px;
+    width:500px;
+
+}
+.mask{
+    position: absolute;
+    left: 135px;
+    width:250px;
+}
+.clouds{
+    position: absolute;
+    top: 320px;
+    left: 140px;
+    width: 300px;
+}
+.waves{
+    width:1200px;
+    /* Border: 4px solid rgb(0, 255, 76);  */
+    position: absolute;
+    right: 410px;
+    top: 420px;
+}
+
+.secondsection{
+    display: flex;
+    /* Border: 4px solid rgb(238, 255, 0);  */
+    height: 700px;
+    position: relative;
+    background-image: url("Task Design/second_section_.png"); 
+    background-size: 900px 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+
+.secondsection img{
+    /* Border: 4px solid rgb(0, 217, 255);  */
+}
+
+.agla{
+    margin-bottom: 320px;
+}
+
+.agla img{
+width: 200px;
+height: 150px;
+margin-left: 50px;
+}
+
+.agla h3{
+    text-align: center;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.aglawords{
+width: 290px;
+text-align: center;
+color: gray;
+}
+
+.clock{
+    margin-bottom: 70px;
+
+}
+
+.clock img{
+    width: 150px;
+    height: 110px; 
+    margin-left: 150px;   
+}
+
+.clock h3 {
+color: gray;
+text-align: center;
+margin-left: 70px;
+margin-bottom: 10px;
+
+}
+
+.clock p{
+    color: gray;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.presentage img{
+    /* Border: 4px solid rgb(0, 217, 255);  */
+    width: 150px;
+    height: 100px;
+    margin-top: 510px;
+    margin-left: 80px;  
+    margin-bottom: 10px;
+}
+.presentage h3 {
+    color: gray;
+    /* Border: 4px solid rgb(0, 217, 255);  */
+    text-align: center;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+
+.presentage p {
+    /* Border: 4px solid rgb(0, 217, 255);  */
+    color: gray;
+    text-align: center;
+    margin-right: 120px;
+}
+.fimg {
+width: 300px;
+position: absolute;
+margin-right: 940px ;
+margin-top: 420px;
+
+}
+.fwordsp{
+    position: absolute;
+    left: 120px;
+    bottom: 150px;
+    color: white;
+}
+.fwordsh1{
+    position: absolute;
+    left: 120px;
+    bottom: 115px;
+    color: white;
+    font-size:x-large
+}
+
+.thirdimgs{
+    display: flex;
+    justify-content: space-around;
+}
+.third1{
+    height: 200px;
+    margin-top: 150px;
+}
+.third2{
+    height: 400px;
+}
+.third3{
+    height: 200px;
+    margin-top: 150px;
+}
+
+.thirdwords{
+    color: gray;
+    text-align: center;
+}
+.thirdwords h2{
+margin-bottom: 20px;
+}
+
+.footer{
+    /* display: flex; */
+    justify-content: space-around;
+    background-image: url("Task Design/Group 1131.png");
+    background-size: 1600px 800px;
+    background-position-x: -100px;
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    /* Border: 4px solid rgb(255, 0, 0);  */
+    max-height: 435px;
+
+}
+.footerimg{
+    height: 350px;
+    margin-left: 280px;
+    margin-top: 50px;
+    /* Border: 4px solid rgb(187, 255, 0); */
+}
+.button{
+    margin-top: 200px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.button1{
+    border-radius: 15%;
+    border-style: none;
+    background-color: white;
+    color: gray;
+    margin-left: 50px;
+    height: 50px;
+    width: 110px;
+}
+.button2{
+    border-radius: 15%;
+    border-style: none;
+    background-color: white;
+    color: gray;
+    margin-left: 60px;
+    height: 50px;
+    width: 110px;
+
+}
+.footerlabel{
+    /* Border: 4px solid rgb(255, 0, 0);  */
+    margin-left: 50px;
+    margin-top: 25px;
+
+    display: flex;
+}
+.navwords2{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.rightfooter{
+    display: flex;
+    margin-left: 50px;
+
+}
